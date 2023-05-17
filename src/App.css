@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 .App {
+  border: 1px salmon;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
   text-align: center;
   display:flex;
   height:100vh;
