@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { ListOfProducts } from './components/data';
+//import { ListOfProducts } from './components/data';
 import Card from './components/Card';
 
 //let product=ListOfProducts;
