@@ -7,12 +7,10 @@ import Card from './components/Card';
 //let index=0;
 //index=index+1
 
-
-
 function App() {
   return (
     <div>
-      <h1 style={{color:'blue',}}>Welcome to Abdullahi Dawud Store</h1>
+      <h1 style={{color:'blue',position:'relative',left:'250px'}}>Welcome to Abdullahi Dawud Store</h1>
 
       
       <div className="App">
