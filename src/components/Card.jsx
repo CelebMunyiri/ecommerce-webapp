@@ -1,6 +1,8 @@
 import React from "react";
 import Item from "./Item";
 import './ThisCard.css'
+import Cart from "./Cart";
+import Watch from '../assets/julius-drost-uumkdaVS8rM-unsplash.jpg'
 //import { ListOfProducts } from "./data";
 //import {ListOfProducts} from './data'
 
@@ -15,7 +17,7 @@ function Card(){
             name:'Watch',
             description:'This a US brand watch built be Mandevour company, it is one of the best in the market',
             cost:'$5.5',
-            image:'https://i.imgur.com/aTtVpES.jpg',
+            image:Watch,
             alt:'An aye for an eye'
         },
         {
@@ -65,11 +67,14 @@ function Card(){
     
     const ListofProducts=products.map(product=>
         <Item key={product.name} product={product}/>
+        
     )
+    
 
     return(
        <div className="container">
         {ListofProducts}
+        <button >Cart</button>
         </div>
     )
 }

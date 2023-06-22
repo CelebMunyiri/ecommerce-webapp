@@ -3,12 +3,16 @@
     margin: 0;
     box-sizing: border-box
     
+
+    
 }
 .container{
+    
+    background: linear-gradient(#003355, #003355 50%, #fff8f3 50%, #fff8f3 100%);
     display: flex;
     width: 100vw;
     height: 100vh;
-    border: 1px solid gold;
+    
     flex-wrap: wrap;
     justify-content: space-around;
 }

@@ -10,14 +10,15 @@
     margin: 5px;
     height: 270px;
     width: 270px;
-    border: 1px solid greenyellow;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.22);
     color: black;
+    border-radius: 20px;
     
     
 }
 .img{
-    border: 1px solid black;
-    border-radius: 30%;
+    
+    
     height: 170px;
     width: 190px;
 }
