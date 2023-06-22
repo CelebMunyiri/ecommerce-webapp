@@ -76,7 +76,7 @@ function Card(){
     return(
        <div className="container">
         {ListofProducts}
-        <button >Cart</button>
+        
         </div>
     )
 }

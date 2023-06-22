@@ -22,9 +22,10 @@ const addToCart = productId => {
   return (
     
     <div className='Card'>
-    <h3>{product.name}</h3>
+    
 
 <img src={product.image} alt={product.alt} className='img'/>
+<h3>{product.name}</h3>
 <p style={{color:'green',fontSize:'bold'}}>{product.cost}</p>
 
 <div>
@@ -39,7 +40,7 @@ const addToCart = productId => {
 
       )}
     </div>
-    <button className='addcart' onClick={addToCart}>Add to Cart</button>
+    
 
     </div>
   )
