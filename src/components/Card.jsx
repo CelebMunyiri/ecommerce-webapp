@@ -3,6 +3,8 @@ import Item from "./Item";
 import './ThisCard.css'
 import Cart from "./Cart";
 import Watch from '../assets/julius-drost-uumkdaVS8rM-unsplash.jpg'
+import Kettle from '../assets/an_vision-kf0GtI-wKDo-unsplash.jpg'
+import Tv from '../assets/nicolas-j-leclercq-qDLLP0yP7FU-unsplash.jpg'
 //import { ListOfProducts } from "./data";
 //import {ListOfProducts} from './data'
 
@@ -24,13 +26,13 @@ function Card(){
         name: 'Kettle',
         cost: '$3.8',
         description: 'Although to neurosurgery, is one of her most recognizable public art pieces.',
-        image: 'https://i.imgur.com/Mx7dA2Y.jpg',
+        image: Kettle,
         alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
       }, {
         name: 'Television',
         cost: '$15.4',
         description: 'This enormous when strong winds blow and opening them in the morning.',
-        image: 'https://i.imgur.com/ZF6s192m.jpg',
+        image: Tv,
         alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
       }, {
         name: 'Sneaker',
