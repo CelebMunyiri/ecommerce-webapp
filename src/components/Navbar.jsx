@@ -10,11 +10,11 @@ const Navbar=()=> {
     } 
     return(     
     <header>
-        <h3>MyPorfolio</h3>
+        <h3>NunuaHapa</h3>
         <nav ref={navRef}>
             <a href="/home">Home</a>
-            <a href="/about">About</a>
-            <a href="/projects">Projects</a>
+            <a href="/about">Electronic</a>
+            <a href="/projects">Groceries</a>
             <a href="/services">Services</a>
             <a href='/contacts'>Contacts</a>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
