@@ -3,6 +3,7 @@ import './App.css';
 //import { ListOfProducts } from './components/data';
 import Card from './components/Card';
 import {Route,Routes} from 'react-router-dom'
+import Navbar from './components/Navbar';
 
 //let product=ListOfProducts;
 //let index=0;
@@ -11,8 +12,9 @@ import {Route,Routes} from 'react-router-dom'
 function App() {
   return (
     <div>
+      <Navbar/>
       
-      <h1 style={{color:'blue',position:'relative',left:'250px'}}>Welcome to Abdullahi Dawud Store</h1>
+      
 
       
       <div className="App">
