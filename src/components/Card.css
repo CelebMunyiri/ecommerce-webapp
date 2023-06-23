@@ -11,7 +11,7 @@
     height: 270px;
     width: 270px;
     
-background-color: aqua;
+background-color: rgb(159, 209, 209);
     border-radius: 20px;
     
     
@@ -19,9 +19,10 @@ background-color: aqua;
 }
 .img{
     
-    
+    margin-top: 10px;
     height: 170px;
     width: 190px;
+    border-radius: 10px;
 }
 h3{
     color: goldenrod;
