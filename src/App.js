@@ -15,7 +15,14 @@ import Clothing from './components/Clothing';
 
 function App() {
   return (
+   
     <div>
+       <Routes>
+        <Route path='/electronic' element={<Electronic/>} />
+        <Route path='/groceries' element={<Groceries/>}/>
+        <Route path='/furniture' element={<Furniture/>}/>
+        <Route path='/clothing' element={<Clothing/>}/>
+      </Routes>
       <Navbar/>
       
       
@@ -26,14 +33,10 @@ function App() {
       
       
         <Card/>
-        <Routes>
-        <Route path='/electronic' element={<Electronic/>} />
-        <Route path='/groceries' element={<Groceries/>}/>
-        <Route path='/furniture' element={<Furniture/>}/>
-        <Route path='/clothing' element={<Clothing/>}/>
-      </Routes>
+        
      
     </div>
+    
       </div>
     
 

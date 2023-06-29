@@ -16,7 +16,7 @@ const Navbar=()=> {
             <a href="/electronic">Electronic</a>
             <a href="/groceries">Groceries</a>
             <a href="/clothing">Clothing</a>
-            <a href='/contacts'>Furnitures</a>
+            <a href='/furniture'>Furnitures</a>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
               <FaTimes/>
             </button>
