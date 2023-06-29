@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Furniture() {
+const Furniture=()=> {
   return (
     <div>
       <h1>Furnitures here</h1>

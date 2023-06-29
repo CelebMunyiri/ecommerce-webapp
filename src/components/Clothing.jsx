@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Clothing() {
+const Clothing=()=> {
   return (
     <div>
       <h1>Clothings here</h1>

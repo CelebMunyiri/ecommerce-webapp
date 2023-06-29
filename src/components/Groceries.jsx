@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Groceries() {
+const Groceries=()=> {
   return (
     <div>
       <h1>Groceries here</h1>

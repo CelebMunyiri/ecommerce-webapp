@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Electronic() {
+const Electronic=() =>{
   return (
     <div>
       <h1>Electronics here</h1>

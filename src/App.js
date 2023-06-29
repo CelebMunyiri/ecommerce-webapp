@@ -6,6 +6,8 @@ import {Route,Routes} from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Electronic from './components/Electronic';
 import Groceries from './components/Groceries';
+import Furniture from './components/Furniture';
+import Clothing from './components/Clothing';
 
 //let product=ListOfProducts;
 //let index=0;
@@ -21,12 +23,15 @@ function App() {
 
       
       <div className="App">
-      <Routes>
-        <Route path='/electronic' element={<Electronic/>} />
-        <Route path='/groceries' element={<Groceries/>}/>
-      </Routes>
+      
       
         <Card/>
+        <Routes>
+        <Route path='/electronic' element={<Electronic/>} />
+        <Route path='/groceries' element={<Groceries/>}/>
+        <Route path='/furniture' element={<Furniture/>}/>
+        <Route path='/clothing' element={<Clothing/>}/>
+      </Routes>
      
     </div>
       </div>
