@@ -4,11 +4,19 @@
     box-sizing: border-box;
 }
 .clothesCard{
-    height: 400px;
-    width: 400px;
-    border: 1px solid red;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(235, 177, 177);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(31, 221, 228);
+    border-radius: 20px;
+    
 }
 .imgCard{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
 }

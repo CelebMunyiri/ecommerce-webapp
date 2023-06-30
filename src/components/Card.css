@@ -10,9 +10,12 @@
     margin: 5px;
     height: 270px;
     width: 270px;
-    
+    display: flex;
+    flex-direction: column;
 background-color: rgb(159, 209, 209);
     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
     
     
     

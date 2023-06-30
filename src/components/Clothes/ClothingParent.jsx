@@ -19,7 +19,7 @@ function ClothingParent() {
     const ListOfClothes=clothings.map(clothes=>
         <ClothingChild key={clothes.name} clothes={clothes}/>)
   return (
-    <div>
+    <div className='container'>
       {ListOfClothes}
     </div>
   )
