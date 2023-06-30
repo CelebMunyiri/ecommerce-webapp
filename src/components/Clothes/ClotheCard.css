@@ -1,0 +1,14 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.clothesCard{
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+}
+.imgCard{
+    height: 200px;
+    width: 200px;
+}

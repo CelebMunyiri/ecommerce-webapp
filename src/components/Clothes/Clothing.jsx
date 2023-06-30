@@ -1,9 +1,10 @@
 import React from 'react'
+import ClothingParent from './ClothingParent'
 
 const Clothing=()=> {
   return (
     <div>
-      <h1>Clothings here</h1>
+      <ClothingParent/>
     </div>
   )
 }

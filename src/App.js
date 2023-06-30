@@ -4,10 +4,10 @@ import './App.css';
 import Card from './components/Card';
 import {Route,Routes} from 'react-router-dom'
 import Navbar from './components/Navbar';
-import Electronic from './components/Electronic';
+import Electronic from './components/Electronics/Electronic';
 import Groceries from './components/Groceries';
 import Furniture from './components/Furniture';
-import Clothing from './components/Clothing';
+import Clothing from './components/Clothes/Clothing';
 
 //let product=ListOfProducts;
 //let index=0;
@@ -32,7 +32,7 @@ function App() {
       <div className="App">
       
       
-        <Card/>
+        
         
      
     </div>

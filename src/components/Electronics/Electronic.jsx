@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from '../Navbar'
+import Card from '../Card'
 
 const Electronic=() =>{
   return (
     <div>
-      <h1>Electronics here</h1>
+      
+      <Navbar/>
+      <Card/>
     </div>
   )
 }
