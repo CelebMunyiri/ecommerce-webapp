@@ -20,3 +20,9 @@
     width: 150px;
     border-radius: 20px;
 }
+.clothesCard h4{
+    color: rgb(119, 88, 14);
+}
+.clothesCard h5{
+    color: green;
+}

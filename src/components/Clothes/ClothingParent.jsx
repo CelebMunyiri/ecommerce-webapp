@@ -24,7 +24,7 @@ function ClothingParent() {
         {
             name:'Fendi men Shirts ',
             img:'https://i.ebayimg.com/images/g/kQkAAOSwoKJkeqRH/s-l500.jpg',
-            description:'',
+            description:'This a Fendi wear for men of medium size and large with different color themes',
             price:'$201'
         }
     ]

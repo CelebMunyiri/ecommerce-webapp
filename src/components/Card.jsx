@@ -31,16 +31,17 @@ function Card(){
       }, {
         name: 'Television',
         cost: '$15.4',
-        description: 'This enormous when strong winds blow and opening them in the morning.',
+        description: 'A new modern smart Tv with netflix, 3.0 USB ports, HDMI support and all in one colors',
         image: Tv,
-        alt: 'A gigantic metallic flower sculpture with reflective mirror-like petals and strong stamens.'
+        alt: 'modern smart Tv.'
       }, {
-        name: 'Sneaker',
+        name: 'Sony Headphones',
         cost: '$22.6',
-        description: 'Wilson was known for his with a sense of universal humanity."',
-        image: 'https://i.imgur.com/aTtVpES.jpg',
-        alt: 'The sculpture depicting a human head seems ever-present and solemn. It radiates calm and serenity.'
-      }, {
+        description: 'This are the beadt headphones with builtin alexa, ask directions, play music,pick a call and increase/lower music volume ',
+        image: 'https://m.media-amazon.com/images/I/51mhf2-LjLL.__AC_SX300_SY300_QL70_ML2_.jpg',
+        alt: 'Sony WX100 headphones here'
+      },
+       {
         name: 'Smart Watch',
         cost: '$13.2',
         description: 'Located on the Easter Island, there some believe represented deified ancestors.',
