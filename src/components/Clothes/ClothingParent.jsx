@@ -15,6 +15,18 @@ function ClothingParent() {
             ,description:"Medium sized men shirt with long lasting mayterial and perfurmed with walalo best perfumes",
             price:'$120'
         },
+        {
+            name:'Adidas Men Shirt',
+            img:'https://i.ebayimg.com/images/g/aDcAAOSwhylkeqRo/s-l1600.jpg',
+            description:'This a medium sized mens sports T-shirt, Rhymes well with other Adidas products like shoes and Pants',
+            price:'$157'
+        },
+        {
+            name:'Fendi men Shirts ',
+            img:'https://i.ebayimg.com/images/g/kQkAAOSwoKJkeqRH/s-l500.jpg',
+            description:'',
+            price:'$201'
+        }
     ]
     const ListOfClothes=clothings.map(clothes=>
         <ClothingChild key={clothes.name} clothes={clothes}/>)
