@@ -26,6 +26,24 @@ function ClothingParent() {
             img:'https://i.ebayimg.com/images/g/kQkAAOSwoKJkeqRH/s-l500.jpg',
             description:'This a Fendi wear for men of medium size and large with different color themes',
             price:'$201'
+        },
+        {
+           name:'Ladies Casual Jacket',
+           img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Casual-Jackets.png'
+           ,description:'A ladies Casual jacket for neutral weather and summer times',
+           price:'$231.0'
+        },
+        {
+            name:'Ladies Pants',
+            img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Pants.png',
+            description:'Ladies Pants, loose baggy sweat pants and parazos',
+            price:'$180.0'
+        },
+        {
+            name:'Ladies Jeans Wear',
+            img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Jeans.png',
+            description:'Ladies Jeans of different sizes according to customer size, made of cotton material, easy to clean and dry',
+            price:'$200.0'
         }
     ]
     const ListOfClothes=clothings.map(clothes=>
