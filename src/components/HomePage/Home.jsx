@@ -1,15 +1,13 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import Card from '../Card'
 
-const Electronic=() =>{
+function Home() {
   return (
     <div>
       
-      
-      <Card/>
+      <Navbar/>
     </div>
   )
 }
 
-export default Electronic
+export default Home

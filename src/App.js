@@ -8,6 +8,7 @@ import Electronic from './components/Electronics/Electronic';
 import Groceries from './components/Groceries';
 import Furniture from './components/Furniture';
 import Clothing from './components/Clothes/Clothing';
+import Home from './components/HomePage/Home';
 
 //let product=ListOfProducts;
 //let index=0;
@@ -18,6 +19,7 @@ function App() {
    
     <div>
        <Routes>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/electronic' element={<Electronic/>} />
         <Route path='/groceries' element={<Groceries/>}/>
         <Route path='/furniture' element={<Furniture/>}/>
@@ -29,13 +31,7 @@ function App() {
       
 
       
-      <div className="App">
       
-      
-        
-        
-     
-    </div>
     
       </div>
     
