@@ -23,7 +23,7 @@ function App() {
         <Route path='/furniture' element={<Furniture/>}/>
         <Route path='/clothing' element={<Clothing/>}/>
       </Routes>
-      <Navbar/>
+      
       
       
       

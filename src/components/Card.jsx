@@ -20,15 +20,16 @@ function Card(){
             description:'This a US brand watch built be Mandevour company, it is one of the best in the market',
             cost:'$5.5',
             image:Watch,
-            alt:'An aye for an eye'
+            alt:'Mandeavour Watch'
         },
         {
         name: 'Kettle',
         cost: '$3.8',
-        description: 'Although to neurosurgery, is one of her most recognizable public art pieces.',
+        description: 'This a Safe to use electronic kettle with Capacity of 1.5 litres',
         image: Kettle,
-        alt: 'A bronze statue of two crossed hands delicately holding a human brain in their fingertips.'
-      }, {
+        alt: 'Electric Kettle'
+      },
+       {
         name: 'Television',
         cost: '$15.4',
         description: 'A new modern smart Tv with netflix, 3.0 USB ports, HDMI support and all in one colors',
@@ -43,16 +44,16 @@ function Card(){
       },
        {
         name: 'Smart Watch',
-        cost: '$13.2',
-        description: 'Located on the Easter Island, there some believe represented deified ancestors.',
-        image: 'https://i.imgur.com/RCwLEoQm.jpg',
-        alt: 'Three monumental stone busts with the heads that are disproportionately large with somber faces.'
+        cost: '$289.2',
+        description: 'A Digital smart watch with all android apps and enabled alexa for directions and guide.',
+        image: 'https://www.saruk.co.ke/images/51111682365285.jpg',
+        alt: 'Smart Watch Image'
       }, {
-        name: 'Man city Jersey',
-        cost: '$90.2',
-        description: 'The Nanas are triumphant creatures, polyester to achieve a more vibrant effect.',
-        image: 'https://i.imgur.com/Sd1AgUOm.jpg',
-        alt: 'A large mosaic sculpture of a whimsical dancing female figure in a colorful costume emanating joy.'
+        name: 'Sony XRS-XE3 series',
+        cost: '$204',
+        description: 'Sony SRS-XE300 X-Series Wireless Portable-Bluetooth Speaker IP67 Waterproof Dustproof and Shockproof wif 24 Hour Battery.',
+        image: 'https://www.saruk.co.ke/images/64151669758071.jpg',
+        alt: 'Sony Speaker'
       }, {
         name: 'Iphone Pro 12',
         cost: '$17.5',
