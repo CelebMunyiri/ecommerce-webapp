@@ -26,7 +26,7 @@ function App() {
         <Route path='/clothing' element={<Clothing/>}/>
       </Routes>
       
-      
+      <Home/>
       
       
 
