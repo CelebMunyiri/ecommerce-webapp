@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Furniture=()=> {
   return (
     <div>
-      <h1>Furnitures here</h1>
+      <Navbar/>
     </div>
   )
 }

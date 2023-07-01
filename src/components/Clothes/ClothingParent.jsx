@@ -46,7 +46,7 @@ function ClothingParent() {
             price:'$200.0'
         },
         {
-            name:'Ladies Top Dresses',
+            name:'LadiesDresses',
             image:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Dresses.png',
             description:'This are dresses of high Quality material',
             price:'$150.0'

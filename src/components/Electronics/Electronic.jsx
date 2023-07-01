@@ -6,7 +6,7 @@ const Electronic=() =>{
   return (
     <div>
       
-      
+      <Navbar/>
       <Card/>
     </div>
   )
