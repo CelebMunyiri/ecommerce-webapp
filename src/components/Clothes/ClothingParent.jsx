@@ -44,6 +44,12 @@ function ClothingParent() {
             img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Jeans.png',
             description:'Ladies Jeans of different sizes according to customer size, made of cotton material, easy to clean and dry',
             price:'$200.0'
+        },
+        {
+            name:'Ladies Top $ Tees',
+            image:'https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/58/043766/1.jpg?9917',
+            description:'This are Ladies Top and Tees of high Quality material',
+            price:'$150.0'
         }
     ]
     const ListOfClothes=clothings.map(clothes=>
