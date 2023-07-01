@@ -12,7 +12,7 @@ const Navbar=()=> {
     <header>
         <h2 style={{color:'goldenrod'}}>NunuaHapa</h2>
         <nav ref={navRef}>
-            <a href="/home">Home</a>
+            <a href="/">Home</a>
             <a href="/electronic">Electronic</a>
             <a href="/groceries">Groceries</a>
             <a href="/clothing">Clothing</a>
