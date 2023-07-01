@@ -10,7 +10,7 @@ const Navbar=()=> {
     } 
     return(     
     <header>
-        <h3>NunuaHapa</h3>
+        <h2 style={{color:'goldenrod'}}>NunuaHapa</h2>
         <nav ref={navRef}>
             <a href="/home">Home</a>
             <a href="/electronic">Electronic</a>

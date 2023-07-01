@@ -12,7 +12,7 @@
     width: 270px;
     display: flex;
     flex-direction: column;
-background-color: rgb(159, 209, 209);
+background-color: #f5f5f5;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,6 @@ background-color: rgb(159, 209, 209);
     border-radius: 10px;
 }
 h3{
-    color: goldenrod;
+    color: rgb(63, 46, 3);
     font-weight: lighter;
 }
