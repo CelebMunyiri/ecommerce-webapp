@@ -6,19 +6,17 @@
 .clothesCard{
     height: 300px;
     width: 300px;
-    border: 1px solid rgb(235, 177, 177);
+    
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background: #94e9e9;
-    border-radius: 20px;
+    
     
 }
 .imgCard{
     height: 170px;
-    width: 170px;
-    border-radius: 20px;
+    width: 100%;
 }
 .clothesCard h4{
     color: rgb(119, 88, 14);

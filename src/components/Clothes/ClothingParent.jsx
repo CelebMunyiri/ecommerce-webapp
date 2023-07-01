@@ -46,9 +46,9 @@ function ClothingParent() {
             price:'$200.0'
         },
         {
-            name:'Ladies Top $ Tees',
-            image:'https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/58/043766/1.jpg?9917',
-            description:'This are Ladies Top and Tees of high Quality material',
+            name:'Ladies Top Dresses',
+            image:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Dresses.png',
+            description:'This are dresses of high Quality material',
             price:'$150.0'
         }
     ]
