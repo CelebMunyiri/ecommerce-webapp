@@ -55,17 +55,17 @@ function Card(){
         image: 'https://www.saruk.co.ke/images/64151669758071.jpg',
         alt: 'Sony Speaker'
       }, {
-        name: 'Iphone Pro 12',
+        name: 'Blenders',
         cost: '$17.5',
-        description: 'This abstract bronze developed abstract forms inspired by people and landscapes.',
-        image: 'https://i.imgur.com/2heNQDcm.jpg',
+        description: 'Digital Powerful Blender with low power consumption and easy to use and clean.',
+        image: 'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/Appliances/Freelinks/Blenders.png',
         alt: 'A tall sculpture made of three elements stacked on each other reminding of a human figure.'
       }, {
-        name:'Sub Woofer',
+        name:'Iron Box',
         cost:'$32.9',
-        description: "Descended from four generations temporary Yoruba themes.",
-        image:'https://i.imgur.com/wIdGuZwm.png',
-        alt:'An intricate wood sculpture of a warrior with a focused face on a horse adorned with patterns.'
+        description: "AILYONS brand Iron box with power and heat regulator numb.",
+        image:'https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/21/883927/1.jpg?2791',
+        alt:'Iron Box'
       }
     ]
     
