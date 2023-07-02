@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 .clothesCard{
-    height: 300px;
-    width: 250px;
+    height: 360px;
+    width: 200px;
     
     display: flex;
     align-items: center;
