@@ -52,7 +52,7 @@ function ClothingParent() {
             price:'$150.0'
         },
         {
-            name:'Ladies Top & Tees',
+            name:'Ladies Top & Teess',
             img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Tops-&-Tees.png',
             description:'This are Cotton made ladies tops and tees of different sizes and color',
             price:'$120.0'
