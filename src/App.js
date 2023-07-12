@@ -3,7 +3,7 @@ import './App.css';
 //import { ListOfProducts } from './components/data';
 import Card from './components/Card';
 import {Route,Routes} from 'react-router-dom'
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Electronic from './components/Electronics/Electronic';
 import Groceries from './components/Groceries';
 import Furniture from './components/Furniture';
@@ -26,17 +26,10 @@ function App() {
         <Route path='/clothing' element={<Clothing/>}/>
       </Routes>
       
-      <Home/>
-      
-      
-
-      
-      
-    
+      {/* <Home/> */}
+      {/* <Navbar/>  */}
+      <Electronic/>
       </div>
-    
-
-    
   );
 }
 
