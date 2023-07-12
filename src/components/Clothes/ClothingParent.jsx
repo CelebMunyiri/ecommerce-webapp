@@ -56,6 +56,24 @@ function ClothingParent() {
             img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/WomensFashion/Freelinks/Tops-&-Tees.png',
             description:'This are Cotton made ladies tops and tees of different sizes and color',
             price:'$120.0'
+        },{
+            name:'Sling Bag Ladies Handbags',
+            img:'https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/42/8890611/1.jpg?4206',
+            description:'Fashion Black Sling Bag Handbags shoulder Bag wallet Waterproof-Black',
+            price:'$5.50'
+        },
+        {
+            name:'Halter jumpsuit trousers',
+            img:'https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/47/253668/1.jpg?7165',
+            description:'Generic women Sexy sleeveless halter Jumpsuit Trousers',
+            price:'$9.00'
+        },
+        {
+            name:'Square Neck Lantern Ruffle Shorts',
+            img:'https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/17/253668/1.jpg?7123',
+            description:"Generic women Square Neck lantern Long Sleeve Ruffle shorts casuals Culottes Jumpsuit",
+            price:'1$2.00'
+
         }
     ]
     const ListOfClothes=clothings.map(clothes=>
