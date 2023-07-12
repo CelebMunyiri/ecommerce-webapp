@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
+import './Groceries.css'
 
-const GroceriesChild=({product})=> {
+const GroceriesChild=({grocery})=> {
     const [cart,setCart]=useState() 
 const [showDescription,setShowdescription]=useState(false)
   
@@ -11,14 +12,14 @@ const handleShowDescription=()=>{
 const handleHideDescription=()=>{
   setShowdescription(false)
 }
-const addToCart = productId => {
+const addToCart = groceryId => {
 
 };
   return (
-    <div className='productCard'>
-        <img src={product.img} alt={product.name} className='imgCard' />
-        <h4>{product.name}</h4>
-        <h5>{product.price}</h5>
+    <div className='groceryCard'>
+        <img src={grocery.img} alt={grocery.name} className='imgCard' />
+        <h4>{grocery.name}</h4>
+        <h5>{grocery.price}</h5>
         
 
         <div>
@@ -26,7 +27,7 @@ const addToCart = productId => {
         <button onClick={handleShowDescription}>Show Description</button>
       ) : (
         <div>
-          <p>{product.description}</p>
+          <p>{grocery.description}</p>
           <button onClick={handleHideDescription}>Hide Description</button>
           
         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import GroceriesChild from './GroceriesChild'
+import '../Clothes/Parent.css'
 
 const GroceriesParent=()=> {
     const groceries=[
@@ -15,12 +16,18 @@ const GroceriesParent=()=> {
             description:'A 1 litre fanta passion soda by Cocacola soft drink manufacturers',
             price:'Ksh 184'
         },
+        {
+            name:'Top fry 2L',
+            img:'https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/30/412824/1.jpg?6158',
+            description:'top Fry 2 litres vegetable cooking Oil',
+            price:'707',
+        }
     ]
-    let ListOfGroceries=product.map(product=>
-<GroceriesChild key={product.name} product={product}/>
+    let ListOfGroceries=groceries.map(grocery=>
+<GroceriesChild key={grocery.name} grocery={grocery}/>
     )
   return (
-    <div>
+    <div className='container'>
       {ListOfGroceries}
     </div>
   )
