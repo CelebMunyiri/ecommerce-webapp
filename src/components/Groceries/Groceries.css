@@ -19,9 +19,19 @@
     width: 200px;
     /* border: 1px solid red; */
 }
-.clothesCard h4{
+.groceryCard h4{
     color: rgb(119, 88, 14);
 }
-.clothesCard h5{
-    color: green;
+.groceryCard h5{
+    color: darkblue;
+}
+button{
+    border:none;
+    background: rgb(215, 211, 211);
+    color:rgb(105, 90, 6);
+    border-radius: 5px;
+}
+button:hover{
+    color: goldenrod;
+    background: gray;
 }

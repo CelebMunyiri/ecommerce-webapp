@@ -20,7 +20,13 @@ const GroceriesParent=()=> {
             name:'Top fry 2L',
             img:'https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/30/412824/1.jpg?6158',
             description:'top Fry 2 litres vegetable cooking Oil',
-            price:'707',
+            price:'Ksh 707',
+        },
+        {
+            name:'Milk',
+            img:'https://ke.jumia.is/cms/2022/BlackFriday/Userneeds/Grocery/Freelinks/Milk.png',
+            description:'1 Litre Whole Milk from dairy best',
+            price:'Ksh 70.00'
         }
     ]
     let ListOfGroceries=groceries.map(grocery=>
