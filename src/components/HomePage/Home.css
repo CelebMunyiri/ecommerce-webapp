@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.homepage{
+    height: 87vh;
+    width: 100%;
+    border: 1px solid yellow;
+}
