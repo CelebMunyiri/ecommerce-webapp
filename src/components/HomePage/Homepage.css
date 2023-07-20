@@ -29,3 +29,18 @@
     grid-area: sidebar;
     border: 1px solid black;
 }
+@media screen and (max-width:500px){
+  .upper{
+    display: grid;
+    grid-template-columns:repeat(1,1fr) ;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: "navigation" "promotions""sidebar";
+    gap: 5px;
+    height: 80%;
+    width:100%;
+
+  }  
+  .promotions{
+    background-image: no-repeat;
+  }
+}
