@@ -25,7 +25,7 @@ const Homepage=()=> {
     <div className='homepage'>
       <div className="upper">
         <div className="navigation"></div>
-        <div className="promotions" style={{background:imagestoUse[imageIndex],width:'100%',height:'100%'}}></div>
+        <div className="promotions" style={{background:imagestoUse[imageIndex],width:'100%',height:'100%',}}></div>
         <div className="sidebar"></div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-//import { ListOfProducts } from './components/data';
+
 import Card from './components/Card';
 import {Route,Routes} from 'react-router-dom'
 import Navbar from './components/Navbar';
@@ -10,9 +10,7 @@ import Furniture from './components/Furniture';
 import Clothing from './components/Clothes/Clothing';
 import Home from './components/HomePage/Home';
 
-//let product=ListOfProducts;
-//let index=0;
-//index=index+1
+
 
 function App() {
   return (

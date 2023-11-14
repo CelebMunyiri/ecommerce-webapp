@@ -11,9 +11,7 @@ const handleShowDescription=()=>{
 const handleHideDescription=()=>{
   setShowdescription(false)
 }
-const addToCart = productId => {
 
-};
   return (
     <div className='clothesCard'>
         <img src={clothes.img} alt={clothes.name} className='imgCard' />
